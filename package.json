@@ -12,7 +12,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/ ",
     "lint:fix": "npm run lint -- --fix",
-    "prettier": "prettier src/"
+    "prettier": "prettier src/ --write"
   },
   "browserslist": {
     "production": [
