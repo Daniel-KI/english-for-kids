@@ -1,0 +1,66 @@
+[
+  {
+    "_id": {
+      "$oid": "60e7271c266675260018f2aa"
+    },
+    "name": "food",
+    "image": "uploads\\categories\\images\\food.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60e9868e2aeea847708131d7"
+    },
+    "name": "transport",
+    "image": "uploads\\categories\\images\\transport.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60e986f42aeea847708131db"
+    },
+    "name": "animals",
+    "image": "uploads\\categories\\images\\animals.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee91335f5332874ebbbba5"
+    },
+    "name": "activities",
+    "image": "uploads\\categories\\images\\activities.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee915c5f5332874ebbbba6"
+    },
+    "name": "items",
+    "image": "uploads\\categories\\images\\items.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee924f5f5332874ebbbba7"
+    },
+    "name": "music",
+    "image": "uploads\\categories\\images\\music.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee92625f5332874ebbbba8"
+    },
+    "name": "professions",
+    "image": "uploads\\categories\\images\\professions.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee92be5f5332874ebbbba9"
+    },
+    "name": "sports",
+    "image": "uploads\\categories\\images\\sports.jpg",
+    "__v": 0
+  }
+]

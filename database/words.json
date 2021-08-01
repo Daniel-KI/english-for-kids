@@ -1,0 +1,706 @@
+[
+  {
+    "_id": {
+      "$oid": "60e9fde05a12e4000450f80e"
+    },
+    "categoryId": "60e7271c266675260018f2aa",
+    "word": "apple",
+    "translation": "яблоко",
+    "image": "uploads/vocabulary/images/apple.jpg",
+    "sound": "uploads/vocabulary/sounds/apple.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee97c834bbb5046c4dfa51"
+    },
+    "categoryId": "60e7271c266675260018f2aa",
+    "word": "cookies",
+    "translation": "печенье",
+    "image": "uploads/vocabulary/images/cookies.jpg",
+    "sound": "uploads/vocabulary/sounds/cookies.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee987a34bbb5046c4dfa52"
+    },
+    "categoryId": "60e7271c266675260018f2aa",
+    "word": "fish",
+    "translation": "рыба",
+    "image": "uploads/vocabulary/images/fish.jpg",
+    "sound": "uploads/vocabulary/sounds/fish.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee988d34bbb5046c4dfa53"
+    },
+    "categoryId": "60e7271c266675260018f2aa",
+    "word": "ice-cream",
+    "translation": "мороженое",
+    "image": "uploads/vocabulary/images/ice-cream.jpg",
+    "sound": "uploads/vocabulary/sounds/ice-cream.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee98b434bbb5046c4dfa54"
+    },
+    "categoryId": "60e7271c266675260018f2aa",
+    "word": "lollipop",
+    "translation": "леденец",
+    "image": "uploads/vocabulary/images/lollipop.jpg",
+    "sound": "uploads/vocabulary/sounds/lollipop.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee98de34bbb5046c4dfa55"
+    },
+    "categoryId": "60e7271c266675260018f2aa",
+    "word": "spaghetti",
+    "translation": "макароны",
+    "image": "uploads/vocabulary/images/spaghetti.jpg",
+    "sound": "uploads/vocabulary/sounds/spaghetti.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee98fc34bbb5046c4dfa56"
+    },
+    "categoryId": "60e7271c266675260018f2aa",
+    "word": "tea",
+    "translation": "чай",
+    "image": "uploads/vocabulary/images/tea.jpg",
+    "sound": "uploads/vocabulary/sounds/tea.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee990e34bbb5046c4dfa57"
+    },
+    "categoryId": "60e7271c266675260018f2aa",
+    "word": "watermelon",
+    "translation": "арбуз",
+    "image": "uploads/vocabulary/images/watermelon.jpg",
+    "sound": "uploads/vocabulary/sounds/watermelon.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee994134bbb5046c4dfa58"
+    },
+    "categoryId": "60e986f42aeea847708131db",
+    "word": "bear",
+    "translation": "медведь",
+    "image": "uploads/vocabulary/images/bear.jpg",
+    "sound": "uploads/vocabulary/sounds/bear.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee997a34bbb5046c4dfa5b"
+    },
+    "categoryId": "60e986f42aeea847708131db",
+    "word": "cat",
+    "translation": "кот",
+    "image": "uploads/vocabulary/images/cat.jpg",
+    "sound": "uploads/vocabulary/sounds/cat.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee99b534bbb5046c4dfa5e"
+    },
+    "categoryId": "60e986f42aeea847708131db",
+    "word": "cow",
+    "translation": "корова",
+    "image": "uploads/vocabulary/images/cow.jpg",
+    "sound": "uploads/vocabulary/sounds/cow.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee99d034bbb5046c4dfa5f"
+    },
+    "categoryId": "60e986f42aeea847708131db",
+    "word": "dog",
+    "translation": "собака",
+    "image": "uploads/vocabulary/images/dog.jpg",
+    "sound": "uploads/vocabulary/sounds/dog.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee99e634bbb5046c4dfa60"
+    },
+    "categoryId": "60e986f42aeea847708131db",
+    "word": "hen",
+    "translation": "курица",
+    "image": "uploads/vocabulary/images/hen.jpg",
+    "sound": "uploads/vocabulary/sounds/hen.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee99ff34bbb5046c4dfa61"
+    },
+    "categoryId": "60e986f42aeea847708131db",
+    "word": "pig",
+    "translation": "свинка",
+    "image": "uploads/vocabulary/images/pig.jpg",
+    "sound": "uploads/vocabulary/sounds/pig.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9a0f34bbb5046c4dfa62"
+    },
+    "categoryId": "60e986f42aeea847708131db",
+    "word": "shark",
+    "translation": "акула",
+    "image": "uploads/vocabulary/images/shark.jpg",
+    "sound": "uploads/vocabulary/sounds/shark.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9a3934bbb5046c4dfa63"
+    },
+    "categoryId": "60e986f42aeea847708131db",
+    "word": "turtle",
+    "translation": "черепаха",
+    "image": "uploads/vocabulary/images/turtle.jpg",
+    "sound": "uploads/vocabulary/sounds/turtle.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9a5934bbb5046c4dfa64"
+    },
+    "categoryId": "60ee92625f5332874ebbbba8",
+    "word": "businessman",
+    "translation": "бизнесмен",
+    "image": "uploads/vocabulary/images/businessman.jpg",
+    "sound": "uploads/vocabulary/sounds/businessman.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9a9734bbb5046c4dfa65"
+    },
+    "categoryId": "60ee92625f5332874ebbbba8",
+    "word": "chef",
+    "translation": "повар",
+    "image": "uploads/vocabulary/images/chef.jpg",
+    "sound": "uploads/vocabulary/sounds/chef.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9aac34bbb5046c4dfa66"
+    },
+    "categoryId": "60ee92625f5332874ebbbba8",
+    "word": "doctor",
+    "translation": "доктор",
+    "image": "uploads/vocabulary/images/doctor.jpg",
+    "sound": "uploads/vocabulary/sounds/doctor.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9ac834bbb5046c4dfa67"
+    },
+    "categoryId": "60ee92625f5332874ebbbba8",
+    "word": "farmer",
+    "translation": "земледелец",
+    "image": "uploads/vocabulary/images/farmer.jpg",
+    "sound": "uploads/vocabulary/sounds/farmer.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9ae634bbb5046c4dfa68"
+    },
+    "categoryId": "60ee92625f5332874ebbbba8",
+    "word": "firefighter",
+    "translation": "пожарный",
+    "image": "uploads/vocabulary/images/firefighter.jpg",
+    "sound": "uploads/vocabulary/sounds/firefighter.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9b0434bbb5046c4dfa69"
+    },
+    "categoryId": "60ee92625f5332874ebbbba8",
+    "word": "soldier",
+    "translation": "солдат",
+    "image": "uploads/vocabulary/images/soldier.jpg",
+    "sound": "uploads/vocabulary/sounds/soldier.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9b2034bbb5046c4dfa6a"
+    },
+    "categoryId": "60ee92625f5332874ebbbba8",
+    "word": "teacher",
+    "translation": "учитель",
+    "image": "uploads/vocabulary/images/teacher.jpg",
+    "sound": "uploads/vocabulary/sounds/teacher.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9b3234bbb5046c4dfa6b"
+    },
+    "categoryId": "60ee92625f5332874ebbbba8",
+    "word": "veterinarian",
+    "translation": "ветеринар",
+    "image": "uploads/vocabulary/images/veterinarian.jpg",
+    "sound": "uploads/vocabulary/sounds/veterinarian.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9e0a34bbb5046c4dfa6c"
+    },
+    "categoryId": "60ee92be5f5332874ebbbba9",
+    "word": "badminton",
+    "translation": "бадминтон",
+    "image": "uploads/vocabulary/images/badminton.jpg",
+    "sound": "uploads/vocabulary/sounds/badminton.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9e3734bbb5046c4dfa6d"
+    },
+    "categoryId": "60ee92be5f5332874ebbbba9",
+    "word": "boxing",
+    "translation": "бокс",
+    "image": "uploads/vocabulary/images/boxing.jpg",
+    "sound": "uploads/vocabulary/sounds/boxing.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9ee534bbb5046c4dfa6e"
+    },
+    "categoryId": "60ee92be5f5332874ebbbba9",
+    "word": "diving",
+    "translation": "дайвинг",
+    "image": "uploads/vocabulary/images/diving.jpg",
+    "sound": "uploads/vocabulary/sounds/diving.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9efb34bbb5046c4dfa6f"
+    },
+    "categoryId": "60ee92be5f5332874ebbbba9",
+    "word": "football",
+    "translation": "футбол",
+    "image": "uploads/vocabulary/images/football.jpg",
+    "sound": "uploads/vocabulary/sounds/football.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9f1d34bbb5046c4dfa70"
+    },
+    "categoryId": "60ee92be5f5332874ebbbba9",
+    "word": "gym",
+    "translation": "гимнастика",
+    "image": "uploads/vocabulary/images/gym.jpg",
+    "sound": "uploads/vocabulary/sounds/gym.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9f6234bbb5046c4dfa71"
+    },
+    "categoryId": "60ee92be5f5332874ebbbba9",
+    "word": "hockey",
+    "translation": "хоккей",
+    "image": "uploads/vocabulary/images/hockey.jpg",
+    "sound": "uploads/vocabulary/sounds/hockey.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9fa534bbb5046c4dfa72"
+    },
+    "categoryId": "60ee92be5f5332874ebbbba9",
+    "word": "racing",
+    "translation": "гонки",
+    "image": "uploads/vocabulary/images/racing.jpg",
+    "sound": "uploads/vocabulary/sounds/racing.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ee9fbb34bbb5046c4dfa73"
+    },
+    "categoryId": "60ee92be5f5332874ebbbba9",
+    "word": "skiing",
+    "translation": "лыжный спорт",
+    "image": "uploads/vocabulary/images/skiing.jpg",
+    "sound": "uploads/vocabulary/sounds/skiing.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea00d34bbb5046c4dfa74"
+    },
+    "categoryId": "60ee91335f5332874ebbbba5",
+    "word": "bathe",
+    "translation": "купаться",
+    "image": "uploads/vocabulary/images/bathe.jpg",
+    "sound": "uploads/vocabulary/sounds/bathe.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea04634bbb5046c4dfa75"
+    },
+    "categoryId": "60ee91335f5332874ebbbba5",
+    "word": "climb",
+    "translation": "лазить",
+    "image": "uploads/vocabulary/images/climb.jpg",
+    "sound": "uploads/vocabulary/sounds/climb.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea07534bbb5046c4dfa76"
+    },
+    "categoryId": "60ee91335f5332874ebbbba5",
+    "word": "dance",
+    "translation": "танцевать",
+    "image": "uploads/vocabulary/images/dance.jpg",
+    "sound": "uploads/vocabulary/sounds/dance.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea08834bbb5046c4dfa77"
+    },
+    "categoryId": "60ee91335f5332874ebbbba5",
+    "word": "read",
+    "translation": "читать",
+    "image": "uploads/vocabulary/images/read.jpg",
+    "sound": "uploads/vocabulary/sounds/read.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea09934bbb5046c4dfa78"
+    },
+    "categoryId": "60ee91335f5332874ebbbba5",
+    "word": "run",
+    "translation": "бегать",
+    "image": "uploads/vocabulary/images/run.jpg",
+    "sound": "uploads/vocabulary/sounds/run.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea0b634bbb5046c4dfa79"
+    },
+    "categoryId": "60ee91335f5332874ebbbba5",
+    "word": "sleep",
+    "translation": "спать",
+    "image": "uploads/vocabulary/images/sleep.jpg",
+    "sound": "uploads/vocabulary/sounds/sleep.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea11a34bbb5046c4dfa7a"
+    },
+    "categoryId": "60ee91335f5332874ebbbba5",
+    "word": "swim",
+    "translation": "плавать",
+    "image": "uploads/vocabulary/images/swim.jpg",
+    "sound": "uploads/vocabulary/sounds/swim.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea15e34bbb5046c4dfa7b"
+    },
+    "categoryId": "60ee91335f5332874ebbbba5",
+    "word": "work",
+    "translation": "работать",
+    "image": "uploads/vocabulary/images/work.jpg",
+    "sound": "uploads/vocabulary/sounds/work.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea17b34bbb5046c4dfa7c"
+    },
+    "categoryId": "60ee915c5f5332874ebbbba6",
+    "word": "bag",
+    "translation": "сумка",
+    "image": "uploads/vocabulary/images/bag.jpg",
+    "sound": "uploads/vocabulary/sounds/bag.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea1ac34bbb5046c4dfa7d"
+    },
+    "categoryId": "60ee915c5f5332874ebbbba6",
+    "word": "book",
+    "translation": "книга",
+    "image": "uploads/vocabulary/images/book.jpg",
+    "sound": "uploads/vocabulary/sounds/book.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea1bc34bbb5046c4dfa7e"
+    },
+    "categoryId": "60ee915c5f5332874ebbbba6",
+    "word": "computer",
+    "translation": "компьютер",
+    "image": "uploads/vocabulary/images/computer.jpg",
+    "sound": "uploads/vocabulary/sounds/computer.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea1e434bbb5046c4dfa7f"
+    },
+    "categoryId": "60ee915c5f5332874ebbbba6",
+    "word": "money",
+    "translation": "деньги",
+    "image": "uploads/vocabulary/images/money.jpg",
+    "sound": "uploads/vocabulary/sounds/money.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea1f434bbb5046c4dfa80"
+    },
+    "categoryId": "60ee915c5f5332874ebbbba6",
+    "word": "soap",
+    "translation": "мыло",
+    "image": "uploads/vocabulary/images/soap.jpg",
+    "sound": "uploads/vocabulary/sounds/soap.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea20f34bbb5046c4dfa81"
+    },
+    "categoryId": "60ee915c5f5332874ebbbba6",
+    "word": "sponge",
+    "translation": "губка",
+    "image": "uploads/vocabulary/images/sponge.jpg",
+    "sound": "uploads/vocabulary/sounds/sponge.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea24a34bbb5046c4dfa82"
+    },
+    "categoryId": "60ee915c5f5332874ebbbba6",
+    "word": "tool",
+    "translation": "инструмент",
+    "image": "uploads/vocabulary/images/tool.jpg",
+    "sound": "uploads/vocabulary/sounds/tool.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea25d34bbb5046c4dfa83"
+    },
+    "categoryId": "60ee915c5f5332874ebbbba6",
+    "word": "watch",
+    "translation": "часы",
+    "image": "uploads/vocabulary/images/watch.jpg",
+    "sound": "uploads/vocabulary/sounds/watch.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea2f234bbb5046c4dfa84"
+    },
+    "categoryId": "60e9868e2aeea847708131d7",
+    "word": "ambulance",
+    "translation": "скорая",
+    "image": "uploads/vocabulary/images/ambulance.jpg",
+    "sound": "uploads/vocabulary/sounds/ambulance.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea3966ae205f38e184651"
+    },
+    "categoryId": "60e9868e2aeea847708131d7",
+    "word": "bicycle",
+    "translation": "велосипед",
+    "image": "uploads/vocabulary/images/bicycle.jpg",
+    "sound": "uploads/vocabulary/sounds/bicycle.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea3c76ae205f38e184652"
+    },
+    "categoryId": "60e9868e2aeea847708131d7",
+    "word": "bike",
+    "translation": "мотоцикл",
+    "image": "uploads/vocabulary/images/bike.jpg",
+    "sound": "uploads/vocabulary/sounds/bike.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea3fc6ae205f38e184653"
+    },
+    "categoryId": "60e9868e2aeea847708131d7",
+    "word": "bus",
+    "translation": "автобус",
+    "image": "uploads/vocabulary/images/bus.jpg",
+    "sound": "uploads/vocabulary/sounds/bus.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea40e6ae205f38e184654"
+    },
+    "categoryId": "60e9868e2aeea847708131d7",
+    "word": "helicopter",
+    "translation": "вертолет",
+    "image": "uploads/vocabulary/images/helicopter.jpg",
+    "sound": "uploads/vocabulary/sounds/helicopter.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea42d6ae205f38e184655"
+    },
+    "categoryId": "60e9868e2aeea847708131d7",
+    "word": "submarine",
+    "translation": "подлодка",
+    "image": "uploads/vocabulary/images/submarine.jpg",
+    "sound": "uploads/vocabulary/sounds/submarine.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea4846ae205f38e184656"
+    },
+    "categoryId": "60e9868e2aeea847708131d7",
+    "word": "taxi",
+    "translation": "такси",
+    "image": "uploads/vocabulary/images/taxi.jpg",
+    "sound": "uploads/vocabulary/sounds/taxi.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea4a66ae205f38e184657"
+    },
+    "categoryId": "60e9868e2aeea847708131d7",
+    "word": "train",
+    "translation": "поезд",
+    "image": "uploads/vocabulary/images/train.jpg",
+    "sound": "uploads/vocabulary/sounds/train.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea4f16ae205f38e184658"
+    },
+    "categoryId": "60ee924f5f5332874ebbbba7",
+    "word": "cello",
+    "translation": "скрипка",
+    "image": "uploads/vocabulary/images/cello.jpg",
+    "sound": "uploads/vocabulary/sounds/cello.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea51e6ae205f38e184659"
+    },
+    "categoryId": "60ee924f5f5332874ebbbba7",
+    "word": "drum",
+    "translation": "барабан",
+    "image": "uploads/vocabulary/images/drum.jpg",
+    "sound": "uploads/vocabulary/sounds/drum.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea52e6ae205f38e18465a"
+    },
+    "categoryId": "60ee924f5f5332874ebbbba7",
+    "word": "guitar",
+    "translation": "гитара",
+    "image": "uploads/vocabulary/images/guitar.jpg",
+    "sound": "uploads/vocabulary/sounds/guitar.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea5416ae205f38e18465b"
+    },
+    "categoryId": "60ee924f5f5332874ebbbba7",
+    "word": "maraca",
+    "translation": "погремушка",
+    "image": "uploads/vocabulary/images/maraca.jpg",
+    "sound": "uploads/vocabulary/sounds/maraca.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea5966ae205f38e18465c"
+    },
+    "categoryId": "60ee924f5f5332874ebbbba7",
+    "word": "microphone",
+    "translation": "микрофон",
+    "image": "uploads/vocabulary/images/microphone.jpg",
+    "sound": "uploads/vocabulary/sounds/microphone.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea5bd6ae205f38e18465d"
+    },
+    "categoryId": "60ee924f5f5332874ebbbba7",
+    "word": "piano",
+    "translation": "пианино",
+    "image": "uploads/vocabulary/images/piano.jpg",
+    "sound": "uploads/vocabulary/sounds/piano.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea5ce6ae205f38e18465e"
+    },
+    "categoryId": "60ee924f5f5332874ebbbba7",
+    "word": "saxophone",
+    "translation": "саксофон",
+    "image": "uploads/vocabulary/images/saxophone.jpg",
+    "sound": "uploads/vocabulary/sounds/saxophone.mp3",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60eea5ec6ae205f38e18465f"
+    },
+    "categoryId": "60ee924f5f5332874ebbbba7",
+    "word": "trumpet",
+    "translation": "труба",
+    "image": "uploads/vocabulary/images/trumpet.jpg",
+    "sound": "uploads/vocabulary/sounds/trumpet.mp3",
+    "__v": 0
+  }
+]
