@@ -1,0 +1,72 @@
+$font-color: #3d3d3d;
+$border-color: #ffffff;
+$toggle-color: #8394f5;
+$toggle-color-checked: #f58396;
+
+.toggle {
+  .toggle__label {
+    position: relative;
+    display: inline-block;
+    height: 3rem;
+    width: 9rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $font-color;
+    border: 0.2rem solid $border-color;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    background-color: transparent;
+
+    .toggle__control {
+      &::before {
+        position: absolute;
+        height: 2.6rem;
+        width: 2.6rem;
+        content: '';
+        transition: all 1s ease;
+        border-radius: 50%;
+        background-color: $toggle-color-checked;
+      }
+      &::after {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 6rem;
+        overflow: hidden;
+        text-transform: uppercase;
+      }
+    }
+
+    .toggle__input {
+      display: none;
+
+      &:not(:checked) + .toggle__control {
+        text-align: right;
+        &::before {
+          left: 0;
+          background-color: $toggle-color;
+        }
+        &::after {
+          content: attr(data-unchecked);
+          right: 0.5rem;
+          left: auto;
+        }
+      }
+
+      &:checked + .toggle__control {
+        text-align: left;
+        &::before {
+          left: calc(100% - 2.6rem);
+          right: auto;
+        }
+        &::after {
+          content: attr(data-checked);
+          right: auto;
+          left: 0.5rem;
+        }
+      }
+    }
+
+  }
+}

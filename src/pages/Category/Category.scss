@@ -1,0 +1,26 @@
+.category {
+  .category__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category__title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #8394f5;
+
+    &.category__title_empty {
+      text-align: center;
+      padding-top: 30vh;
+    }
+  }
+
+  .category__words {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}

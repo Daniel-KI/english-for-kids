@@ -1,0 +1,15 @@
+{
+  "short_name": "English",
+  "name": "English for kids",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "30x30"
+    }
+  ]
+}

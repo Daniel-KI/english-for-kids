@@ -1,0 +1,126 @@
+.vocab-card {
+  position: relative;
+  width: calc(100% / 4 - 2rem);
+  cursor: pointer;
+  transition: 1s ease;
+  perspective: 100rem;
+  margin: 1rem;
+
+  &::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  @media(max-width: 1200px) {
+    width: calc(100% / 3 - 2rem);
+  }
+
+  @media(max-width: 900px) {
+    width: calc(100% / 2 - 2rem);
+  }
+
+  @media(max-width: 600px) {
+    width: calc(100% - 2rem);
+  }
+
+  .vocab-card__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    .vocab-card__front,
+    .vocab-card__back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 1rem;
+      overflow: hidden;
+      backface-visibility: hidden;
+      box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+      transition: 1s ease;
+
+      &:hover {
+        transform: scale(1.01);
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+      }
+    }
+
+    .vocab-card__front {
+      transform: rotateY(0deg);
+    }
+    .vocab-card__back {
+      transform: rotateY(180deg);
+    }
+
+    .vocab-card__image {
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+
+    .vocab-card__description {
+      height: 20%;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+    }
+
+    .vocab-card__word {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+
+    .vocab-card__btn {
+      cursor: pointer;
+      width: 1.5rem;
+      height: 1.5rem;
+      background: transparent;
+      border: none;
+      outline: none;
+      transition: 1s ease;
+
+      &:hover {
+        transform: rotate(-360deg);
+      }
+
+      >.vocab-card__btn-icon {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+
+  &.vocab-card_flipped {
+    
+    >.vocab-card__content {
+      >.vocab-card__front {
+        transform: rotateY(-180deg) !important;
+      }
+      
+      >.vocab-card__back {
+        transform: rotateY(0deg) !important;
+      }
+    }
+  }
+
+  &.vocab-card_game {
+    .vocab-card__image {
+      height: 100%;
+    }
+    >.vocab-card__content {
+      >.vocab-card__front {
+        >.vocab-card__description {
+          display: none;
+        }
+      }
+    }
+  }
+  &.vocab-card_matched {
+    filter: opacity(0.3);
+    pointer-events: none;
+    cursor: none;
+  }
+}

@@ -1,0 +1,23 @@
+$title-color: #8394f5;
+
+.main {
+  .main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__title {
+    font-size: 5rem;
+    font-weight: 900;
+    color: $title-color;
+  }
+
+  .main__categories {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

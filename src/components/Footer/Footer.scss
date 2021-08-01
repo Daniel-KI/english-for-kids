@@ -1,0 +1,43 @@
+$shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+$text-color: #8394f5;
+$text-color-hover: #f58396;
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  box-shadow: $shadow;
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $text-color;
+    transition: 1s;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    .footer__logo {
+      fill: $text-color;
+      margin-right: 0.1rem;
+      transition: 1s;
+    }
+    .footer__img {
+      height: 2rem;
+      width: auto;
+    }
+    &:hover {
+      color: $text-color-hover;
+      .footer__logo {
+        fill: $text-color-hover;
+      }
+    }
+  }
+}
