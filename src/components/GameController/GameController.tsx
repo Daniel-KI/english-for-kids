@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import { useHistory } from 'react-router-dom';
-
 import { CategoryModel } from '../../models/categoryModel';
 import {
   resetCategorySliceState,

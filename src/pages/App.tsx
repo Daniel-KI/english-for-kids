@@ -1,6 +1,5 @@
 import './App.scss';
 import { Redirect, Route, BrowserRouter as Router, Switch } from 'react-router-dom';
-
 import Footer from '../components/Footer/Footer';
 import Menu from '../components/Menu/Menu';
 import routs from '../data/routesData';

@@ -1,7 +1,6 @@
 import './Category.scss';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-
 import GameController from '../../components/GameController/GameController';
 import VocabCard from '../../components/VocabCard/VocabCard';
 import categoriesData from '../../data/categoriesData';

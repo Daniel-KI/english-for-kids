@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import './VocabCard.scss';
-
 import { CardModel } from '../../models/cardModel';
 import {
   incrementCorrectMatches,

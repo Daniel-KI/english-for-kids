@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link, useLocation } from 'react-router-dom';
 import './Menu.scss';
-
 import categoriesData from '../../data/categoriesData';
 import routs from '../../data/routesData';
 import useOutsideClick from '../../hooks/useOutsideClick';

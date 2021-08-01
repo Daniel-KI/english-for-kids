@@ -1,5 +1,4 @@
 import './Main.scss';
-
 import CategoryCard from '../../components/CategoryCard/CategoryCard';
 import categories from '../../data/categoriesData';
 

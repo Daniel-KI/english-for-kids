@@ -1,7 +1,5 @@
 import './CategoryCard.scss';
-
 import { Link } from 'react-router-dom';
-
 import { CategoryModel } from '../../models/categoryModel';
 
 const CategoryCard = ({ name, data }: { name: string; data: CategoryModel }): JSX.Element => (
