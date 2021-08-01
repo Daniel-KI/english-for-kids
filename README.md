@@ -23,4 +23,3 @@
 - 📌 Static app: https://daniel-ki-english-for-kids.netlify.app/main
 - 📌 Dynamic app: https://english-for-kids-admin-panel.netlify.app/
 - 📌 Server: https://daniel-ki-english-for-kids.herokuapp.com/
-- 
