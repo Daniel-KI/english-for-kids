@@ -8,9 +8,9 @@
   "scripts": {
     "start": "ts-node ./src/app.ts",
     "watch": "nodemon ./src/app.ts",
-    "lint": "eslint src --ext .ts,.js",
+    "lint": "eslint src/",
     "lint:fix": "npm run lint -- --fix",
-    "prettier": "prettier src/",
+    "prettier": "prettier src/ --write",
     "build": "tsc -p ."
   },
   "devDependencies": {
