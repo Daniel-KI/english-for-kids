@@ -1,0 +1,187 @@
+$light-color: #f5f5f5;
+$blue-color: #8394f5;
+$yellow-color: #ecf58e;
+$red-color: #f58396;
+$green-color: #83f5e2;
+
+.create-category-controller {
+  position: relative;
+  width: calc(100% / 2 - 2rem);
+  height: 20rem;
+  margin: 1rem;
+  border-radius: 1rem;
+
+  @media (max-width: 900px) {
+    width: calc(100% - 2rem);
+  }
+
+  .create-category-controller__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    .create-category-controller__btn {
+      width: 30%;
+      margin: 5%;
+      height: 50%;
+      border: none;
+      outline: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 400;
+
+      .create-category-controller__btn-icon {
+        height: 50%;
+        width: auto;
+      }
+    }
+
+    .create-category-controller__front,
+    .create-category-controller__back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 1rem;
+      overflow: hidden;
+      backface-visibility: hidden;
+      box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+      transition: 1s ease;
+    }
+
+    .create-category-controller__front {
+      transform: rotateY(0deg);
+
+      &:hover {
+        transform: scale(1.01);
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+      }
+
+      .create-category-controller__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+        filter: brightness(0.7);
+      }
+
+      .create-category-controller__data {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        background-color: $blue-color;
+
+        .create-category-controller__title {
+          font-size: 2rem;
+          font-weight: 900;
+          color: $light-color;
+          text-align: center;
+        }
+        .create-category-controller__info {
+          font-size: 1.5rem;
+          font-weight: 900;
+          color: $light-color;
+        }
+      }
+
+      .create-category-controller__actions {
+        position: relative;
+        z-index: 2;
+        background-color: white;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .create-category-controller__btn_add {
+          background-color: $green-color;
+        }
+      }
+    }
+
+    .create-category-controller__back {
+      transform: rotateY(180deg);
+      background-color: $green-color;
+
+      .create-category-controller__form {
+        height: 100%;
+        width: 100%;
+
+        .create-category-controller__data {
+          position: relative;
+          z-index: 2;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 70%;
+          width: 70%;
+          margin: 0 auto;
+
+          .create-category-controller__input {
+            height: 2.5rem;
+            width: 100%;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+            outline: none;
+            border: 1px solid black;
+            padding: 0 0.5rem;
+            font-size: 1.5rem;
+            line-height: 3rem;
+            font-weight: 400;
+
+            &.create-category-controller__input_file {
+              position: absolute;
+              opacity: 0;
+              z-index: -1;
+            }
+          }
+
+          .create-category-controller__label_file {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 2.5rem;
+            border-radius: 0.5rem;
+            background-color: $blue-color;
+            color: $light-color;
+            font-size: 1.5rem;
+            line-height: 3rem;
+            font-weight: 400;
+            cursor: pointer;
+          }
+        }
+
+        .create-category-controller__actions {
+          position: relative;
+          z-index: 2;
+          background-color: white;
+          height: 30%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  &.create-category-controller_flipped {
+    > .create-category-controller__content {
+      > .create-category-controller__front {
+        transform: rotateY(-180deg) !important;
+      }
+
+      > .create-category-controller__back {
+        transform: rotateY(0deg) !important;
+      }
+    }
+  }
+}

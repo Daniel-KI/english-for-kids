@@ -1,0 +1,104 @@
+$title-color: #8394f5;
+$info-color: #f58396;
+$yellow-color: #ecf58e;
+$green-color: #83f5a9;
+
+.authentication {
+  .authentication__container {
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .authentication__title {
+    font-size: 5rem;
+    font-weight: 900;
+    color: $title-color;
+    text-align: center;
+  }
+
+  .authentication__info {
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: $info-color;
+    text-align: center;
+  }
+
+  .authentication__controls {
+    padding: 2rem 0;
+    width: 50%;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+
+    .authentication__form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .authentication__form-data {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .authentication__label {
+          width: 100%;
+          padding-bottom: 1rem 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.5rem;
+          line-height: 3rem;
+          font-weight: 900;
+          color: $title-color;
+        }
+
+        .authentication__input {
+          width: 100%;
+          height: 2.5rem;
+          outline: none;
+          border-radius: 0.5rem;
+          border: 1px solid black;
+          padding: 0 0.5rem;
+          font-size: 1.5rem;
+          line-height: 3rem;
+          font-weight: 400;
+        }
+      }
+
+      .authentication__form-controls {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 3rem;
+
+        .authentication__btn {
+          font-size: 1.2rem;
+          line-height: 3rem;
+          font-weight: 600;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: none;
+          outline: none;
+          cursor: pointer;
+
+          &.authentication__btn_submit {
+            width: 50%;
+            height: 3rem;
+            background-color: $green-color;
+            border-radius: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}

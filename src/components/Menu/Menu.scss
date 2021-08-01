@@ -1,0 +1,128 @@
+$light-color: #f5f5f5;
+$blue-color: #8394f5;
+$yellow-color: #ecf58e;
+$red-color: #f58396;
+
+.menu {
+  .menu__btn {
+    transition: 0.5s ease;
+    cursor: pointer;
+    width: 3rem;
+    height: auto;
+  }
+
+  .menu__header {
+    background-color: $light-color;
+    padding: 1rem 0;
+    background: transparent;
+
+    .menu__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: inherit;
+    }
+
+    .menu__btn_open {
+      fill: $blue-color;
+
+      &:hover {
+        fill: $red-color;
+      }
+    }
+  }
+
+  .menu__sidebar {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 4rem 1rem;
+    transform: translateX(0);
+    overflow-y: auto;
+    background-color: $red-color;
+    border-radius: 0 2rem 2rem 0;
+    transition: 1s ease-in-out;
+
+    @media (max-width: 1200px) {
+      width: 30%;
+    }
+
+    @media (max-width: 900px) {
+      width: 50%;
+    }
+
+    @media (max-width: 600px) {
+      width: 100%;
+      border-radius: 0;
+      text-align: center;
+    }
+
+    &.menu__sidebar_collapsed {
+      transform: translateX(-100%);
+    }
+
+    .menu__btn_close {
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      fill: $light-color;
+
+      &:hover {
+        fill: $yellow-color;
+      }
+    }
+
+    .menu__list {
+      width: 100%;
+      list-style: none;
+
+      .menu__item {
+        cursor: pointer;
+
+        > .menu__link {
+          display: block;
+          padding: 0.5rem 0.5rem;
+          font-size: 2rem;
+          line-height: 3rem;
+          font-weight: 600;
+          text-decoration: none;
+          color: $light-color;
+          transition: 0.2 ease;
+          text-transform: lowercase;
+
+          &::first-letter {
+            text-transform: uppercase;
+          }
+        }
+
+        &.menu__item_active {
+          cursor: none;
+          pointer-events: none;
+
+          > .menu__link {
+            color: $yellow-color;
+          }
+        }
+
+        &.menu__item_authentication {
+          width: 12rem;
+          border-radius: 0.5rem;
+          background-color: $yellow-color;
+
+          > .menu__link {
+            color: $blue-color;
+          }
+
+          @media (max-width: 600px) {
+            &.menu__item_authentication {
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}

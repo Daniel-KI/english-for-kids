@@ -1,0 +1,36 @@
+.categories-data {
+  .categories-data__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .categories-data__title {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 900;
+      margin: 1rem 0 0 0;
+      color: #8394f5;
+      text-align: center;
+
+      &.categories-data__title_empty {
+        padding-top: 15vh;
+        text-align: center;
+        @media (max-width: 600px) {
+          padding-top: 5vh;
+        }
+      }
+    }
+
+    .categories-data__preloader {
+      padding-top: 25vh;
+    }
+
+    .categories-data__records {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

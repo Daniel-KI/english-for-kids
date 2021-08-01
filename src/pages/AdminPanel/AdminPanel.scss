@@ -1,0 +1,26 @@
+.admin-panel {
+  .admin-panel__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh;
+
+    @media (max-width: 600px) {
+      padding-top: 10vh;
+    }
+
+    .admin-panel__title {
+      text-align: center;
+      font-size: 5rem;
+      font-weight: 900;
+      color: #8394f5;
+      text-align: center;
+    }
+
+    .admin-panel__info {
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  }
+}

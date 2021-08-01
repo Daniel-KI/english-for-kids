@@ -1,0 +1,22 @@
+$btn-color: #f58396;
+$btn-color-hover: #ff7189;
+$light-color: #f5f5f5;
+
+.logout-button {
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: $btn-color;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+  color: $light-color;
+  transition: 0.5s ease;
+
+  &:hover {
+    background-color: $btn-color-hover;
+  }
+}
