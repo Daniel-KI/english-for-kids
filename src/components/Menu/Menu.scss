@@ -4,7 +4,6 @@ $yellow-color: #ecf58e;
 $red-color: #f58396;
 
 .menu {
-
   .menu__btn {
     transition: 0.5s ease;
     cursor: pointer;
@@ -23,7 +22,7 @@ $red-color: #f58396;
       align-items: center;
       height: inherit;
     }
-    
+
     .menu__btn_open {
       fill: $blue-color;
 
@@ -31,7 +30,6 @@ $red-color: #f58396;
         fill: $red-color;
       }
     }
-
   }
 
   .menu__sidebar {
@@ -48,18 +46,18 @@ $red-color: #f58396;
     border-radius: 0 2rem 2rem 0;
     transition: 1s ease-in-out;
 
-    @media(max-width: 1200px) {
-        width: 30%;      
+    @media (max-width: 1200px) {
+      width: 30%;
     }
-    
-    @media(max-width: 900px) {
-        width: 50%;
+
+    @media (max-width: 900px) {
+      width: 50%;
     }
-    
-    @media(max-width: 600px) {
-        width: 100%;
-        border-radius: 0;
-        text-align: center;
+
+    @media (max-width: 600px) {
+      width: 100%;
+      border-radius: 0;
+      text-align: center;
     }
 
     &.menu__sidebar_collapsed {
@@ -71,7 +69,7 @@ $red-color: #f58396;
       right: 1rem;
       top: 1rem;
       fill: $light-color;
-      
+
       &:hover {
         fill: $yellow-color;
       }
@@ -84,7 +82,7 @@ $red-color: #f58396;
       .menu__item {
         cursor: pointer;
 
-        >.menu__link {
+        > .menu__link {
           display: block;
           padding: 0.5rem 1rem;
           font-size: 2rem;
@@ -94,7 +92,7 @@ $red-color: #f58396;
           color: $light-color;
           transition: 0.2 ease;
           text-transform: lowercase;
-          
+
           &::first-letter {
             text-transform: uppercase;
           }
@@ -104,13 +102,11 @@ $red-color: #f58396;
           cursor: none;
           pointer-events: none;
 
-          >.menu__link {
+          > .menu__link {
             color: $yellow-color;
           }
         }
       }
     }
-
   }
-
 }

@@ -6,7 +6,7 @@ $hp-color: #f58396;
   display: flex;
   justify-content: space-between;
   padding: 0 1rem;
-  
+
   .game-controller__btn {
     width: 7rem;
     height: 3rem;
@@ -35,18 +35,18 @@ $hp-color: #f58396;
     overflow: hidden;
     font-size: 2.5rem;
 
-    @media(max-width: 900px) {
+    @media (max-width: 900px) {
       width: calc(100% - 8rem);
     }
 
-    >.game-controller__hp-plus {
+    > .game-controller__hp-plus {
       fill: $hp-color;
       flex-shrink: 0;
       margin: 0;
       padding: 0;
     }
 
-    >.game-controller__hp-minus {
+    > .game-controller__hp-minus {
       fill: $hp-color;
       flex-shrink: 0;
     }

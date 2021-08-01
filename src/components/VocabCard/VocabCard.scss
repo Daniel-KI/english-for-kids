@@ -7,20 +7,20 @@
   margin: 1rem;
 
   &::after {
-    content: "";
+    content: '';
     display: block;
     padding-bottom: 100%;
   }
 
-  @media(max-width: 1200px) {
+  @media (max-width: 1200px) {
     width: calc(100% / 3 - 2rem);
   }
 
-  @media(max-width: 900px) {
+  @media (max-width: 900px) {
     width: calc(100% / 2 - 2rem);
   }
 
-  @media(max-width: 600px) {
+  @media (max-width: 600px) {
     width: calc(100% - 2rem);
   }
 
@@ -86,7 +86,7 @@
         transform: rotate(-360deg);
       }
 
-      >.vocab-card__btn-icon {
+      > .vocab-card__btn-icon {
         width: auto;
         height: 100%;
       }
@@ -94,13 +94,12 @@
   }
 
   &.vocab-card_flipped {
-    
-    >.vocab-card__content {
-      >.vocab-card__front {
+    > .vocab-card__content {
+      > .vocab-card__front {
         transform: rotateY(-180deg) !important;
       }
-      
-      >.vocab-card__back {
+
+      > .vocab-card__back {
         transform: rotateY(0deg) !important;
       }
     }
@@ -110,9 +109,9 @@
     .vocab-card__image {
       height: 100%;
     }
-    >.vocab-card__content {
-      >.vocab-card__front {
-        >.vocab-card__description {
+    > .vocab-card__content {
+      > .vocab-card__front {
+        > .vocab-card__description {
           display: none;
         }
       }
